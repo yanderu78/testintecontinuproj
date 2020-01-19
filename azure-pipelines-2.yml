@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '1e324fec-7efd-4d7a-ab00-48e13443186b'
   imageRepository: 'deploytest'
   containerRegistry: 'crtestintegra.azurecr.io'
-  dockerfilePath: '/Dockerfile'
+  dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
